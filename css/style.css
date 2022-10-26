@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 header{
     height: 70px;
     background-color: #FF6900;
@@ -17,10 +21,6 @@ footer{
 .container{
     width: 75%;
     margin: 0 auto;
-}
-
-.topbar{
-    padding-top: 10px;
 }
 
 
@@ -37,7 +37,7 @@ footer{
     width: calc(100% / 3);
     margin-top: 5px;
     margin-right: 5px;
-
+    
 }
 
 .col-50{
@@ -74,6 +74,14 @@ footer{
 }
 
 /* inizio header */
+
+.topbar{
+    padding-top: 10px;
+    position: fixed;
+    width: 100%;
+    background-color: #FF6900;
+    z-index: 1;
+}
 
 .unorder-list-header{
     display: flex;
@@ -147,10 +155,13 @@ footer{
 
 .red-price{
     color: #ff0000;
+    font-size: 15px;
 }
 
 .price-none{
     text-decoration: line-through;
+    font-size: 15px;
+    padding-left: 5px;
 }
 
 h5{
@@ -177,6 +188,7 @@ h5{
     list-style: none;
     display: flex;
     justify-content: flex-end;
+    font-size: 20px;
 }
 
 a{
@@ -187,5 +199,4 @@ a{
 
 .social{
     text-align: right;
-    font-size: 20px;
 }
