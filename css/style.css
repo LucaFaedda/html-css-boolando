@@ -34,9 +34,6 @@ header{
 
 .col-33{
     width: calc(100% / 3);
-    background-color: green;
-    height: 500px;
-    border: 1px solid black;
     margin-top: 5px;
     margin-right: 5px;
 
@@ -55,8 +52,9 @@ header{
     width: 60%;
 }
 
-.margin-bottom20px{
+.margin-tb-20px{
     margin-bottom: 20px;
+    margin-top: 20px;
 }
 
 .padding-lr-10px{
@@ -65,6 +63,14 @@ header{
 
 .padding-tb-15px{
     padding: 15px 0px;
+}
+
+.width-img{
+    width: 450px;
+}
+
+.gap-35px{
+    gap:35px;
 }
 
 /* inizio header */
@@ -89,4 +95,42 @@ header{
 .icons{
     text-align: right;
     color: #fff;
+}
+
+/* fine header */
+
+/*  inizio main  */
+
+.image{
+    position: relative;
+    width: 100%;
+}
+
+.lable{
+    position: absolute;
+    bottom: 50px;
+    padding: 5px 10px;
+}
+
+.green{
+    left: 50px;
+    background-color: #008000;
+    margin-left: 10px;
+}
+
+.red{
+    background-color:#ff0000;
+}
+
+.image .img-hover{
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+.image:hover .img-hover{
+    opacity: 1;
 }
