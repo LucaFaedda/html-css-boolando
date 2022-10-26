@@ -9,6 +9,11 @@ header{
     background-color: #FF6900;
 }
 
+footer{
+    height: 100px;
+    background-color: #1A1A1A;
+}
+
 .container{
     width: 75%;
     margin: 0 auto;
@@ -18,10 +23,6 @@ header{
     padding-top: 10px;
 }
 
-.footbar{
-    width: 100%;
-    background-color: black;
-}
 
 .row{
     display: flex;
@@ -41,11 +42,6 @@ header{
 
 .col-50{
     width: 50%;
-    background-color: yellow;
-    height: 150px;
-    border: 1px solid black;
-
-
 }
 
 .col-60{
@@ -79,7 +75,7 @@ header{
 
 /* inizio header */
 
-.unorder-list-footer{
+.unorder-list-header{
     display: flex;
     list-style: none;
     color: #fff;
@@ -159,4 +155,37 @@ header{
 
 h5{
     font-weight: bolder;
+}
+
+/* fine main */
+
+/* inizio footer */
+
+.footbar{
+    width: 100%;
+    padding-top: 20px;
+    color: #fff;
+    line-height: 1.5;
+}
+
+.unorder-list-footer{
+    display: flex;
+    list-style: none;
+}
+
+.unorder-list-icone{
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+
+}
+
+.social{
+    text-align: right;
+    font-size: 20px;
 }
